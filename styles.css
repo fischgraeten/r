@@ -1,0 +1,68 @@
+body {
+   font-family: "Consolas", "Arial", sans-serif;
+   margin: 0;
+   text-align: center;
+}
+
+h1 {
+   font-size: x-large;
+}
+
+#folder-list {
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 800px; /* Adjust max width as needed */
+   margin: auto; /* Center the list */
+}
+
+.folder-item {
+   display: flex;
+   align-items: center;
+   width: 25%; /* Three columns */
+   padding: 8px; /* Add padding */
+   box-sizing: border-box; /* Include padding in width */
+}
+
+.folder-icon {
+   width: 16px; /* Adjust size of the icon */
+   height: 16px; /* Adjust size of the icon */
+   margin-right: 8px; /* Space between icon and text */
+}
+
+.folder-item a {
+   text-decoration: none; /* Remove underline */
+   color: inherit; /* Use inherited text color */
+   display: flex; /* Ensures icon and text are aligned */
+   align-items: center; /* Center items vertically */
+}
+
+.folder-item a:hover span {
+   color: orange; /* Change text color to orange on hover */
+}
+
+.folder-item span {
+   font-size: 14px; /* Smaller font size */
+}
+
+
+
+
+
+.breadcrumb {
+   padding: 15px 15px;
+   font-size: 14px;
+}
+
+.breadcrumb a {
+   text-decoration: none;
+   color: #007bff;
+}
+
+.breadcrumb a:hover {
+   color: orange;
+}
+
+.breadcrumb span {
+   margin: 0 5px; /* Space around the separator */
+}
+
